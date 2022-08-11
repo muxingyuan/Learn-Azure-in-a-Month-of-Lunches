@@ -1,0 +1,10 @@
+  448  git init
+  449  git pull https://github.com/muxingyuan/Learn-Azure-in-a-Month-of-Lunches.git
+  450  git add .
+  451  git commit -m "today's note, not much stuff."
+  452  git push
+  453  git remote add AzureLearn_master https://github.com/muxingyuan/Learn-Azure-in-a-Month-of-Lunches.git
+  454  git push
+  455  git push AzureLearn_master
+  456  git push --set-upstream AzureLearn_master master
+  461  history > command_line_20220810.txt
