@@ -1,0 +1,19 @@
+##command line in xingyuan@Azure:!$
+
+##xingyuan: I choose a file name instead of default path and name ~/.ssh/id_rsa
+##therefore I can not access VM through ssh
+##in below commands, I go to .ssh dir to verify and finally give correct command with correct path and name.
+
+ssh-keygen
+cat firstssh.pub
+ls -l
+pwd
+cd ~
+pwd
+ls -a
+cd .ssh
+ls
+cd ..
+ssh -i ~/firstssh azuremol@xx.xxx.xx.xxx
+
+##after coming into VM through ssh, console prompt changed to azuremol@webvm:~$

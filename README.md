@@ -7,3 +7,7 @@ I am certified Google Cloud Certified Professional Data Engineer, so I am confid
 I have the motivation of driving through this duo-project as fast as possible, since I would love to evolve to a Data Enginner from my current Business Intelligence Developer role.
 
 At 20 of 370 of this ebook ^-^.  Happying reading and learning!
+
+text file "note xxxxxxxx" is my key-ins for essense or greatest or comments;
+text file "command_line xxxxxxxx" is either my commands to interact with github, or,
+my Linux commands along this book.
