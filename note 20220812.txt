@@ -1,4 +1,4 @@
-page 20 (45 of 370) before Try it now at bottom of the page 
+page 26 (51 of 370) before 2.4.2 
 
 1. The ssh-keygen command defaults to a 2,048-bit-length key and uses the RSA version 2 protocal.
 This is a good balance of security and is recommended for most use cases.
