@@ -17,3 +17,13 @@ cd ..
 ssh -i ~/firstssh azuremol@xx.xxx.xx.xxx
 
 ##after coming into VM through ssh, console prompt changed to azuremol@webvm:~$
+
+
+##gitbash
+
+##mistakenly type in $git commit and in editor
+##go out of editor: 
+##step1: type i
+##step2: write something or no and press Esc
+##step3: type :x! or :q!
+
