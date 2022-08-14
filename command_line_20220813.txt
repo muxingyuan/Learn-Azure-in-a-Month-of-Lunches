@@ -1,0 +1,12 @@
+#xingyuan@Azure:~$
+
+ssh -i ~/firstssh azuremol@xx.xxx.xx.xxx
+az --version
+az vm open-port -g azuremol-chapter2 -n webvm --port 80
+
+#azuremol@webvm:~$
+
+pwd
+sudo apt update && sudo apt install -y lamp-server^
+exit
+

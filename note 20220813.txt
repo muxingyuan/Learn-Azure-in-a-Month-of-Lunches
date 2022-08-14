@@ -1,0 +1,50 @@
+page 37 (62 of 370) before 2.4.2 
+
+1. xingyuan: get to know in $sudo apt ... apt means Advanced Packing Tool
+
+2. The Azure CLI is written in Python, which is part of what makes it 
+cross-platform and available for you to install locally on any computer if you don't
+want to always use Cloud Shell.
+Xingyuan: This is remarkable!
+
+3. There is no Undo button in Azure!
+
+4. common error response from web server: 
+404 web page couldn't be found.
+403 you don't have permission to view the page
+500 the server encountered an error
+
+5. Xingyuan: don't understand why but since yesterday's exercise, vm didn't cost me a penny,
+while resource group cost me 11 cents.
+
+chapter 3 Azure Web Apps
+========================
+
+6.  There will be  a cutoof on supported older vesions at a certain point.  
+Again, that may be a time when you fall back to running IaaS VMs yourself.
+But in that case, you are in a constant-maintenance approach (miserable situation).
+Always look to move those legacy apps to more modern supported platforms.
+
+Xingyuan: this statement makes me think it is like smart phone industry game that
+hardware and app are always interactively updating, so that users are always staying 
+at latest and greatest experience.
+host hardware/cloud capability and web app is the just the same industry game.
+However, in the backend of major banks, governments, large enterprises, there are their
+respective core business application, that are so old but so crucially core to the business
+so that no one want to risk updating them with new stack... as long as it runs ...
+
+Just like licensed and open-source will continue to live peacefully together,
+cloud hosting and on-prem hosting will be the world even in future, just the portion percentage
+is leaning more to cloud.
+
+7. Learn Git in a Month of Lunches, by Rick Umali, is free for read on the Manning LiveBook platform.
+
+
+
+
+
+
+
+
+
+
