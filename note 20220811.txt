@@ -1,0 +1,37 @@
+page 20 (45 of 370) before Try it now at bottom of the page 
+
+1. you can start to make informed decisions as to when to build and run a VM to power
+a website (IaaS) and when you might use PaaS to do so.
+
+2. create a basic VM, log in to install a web server, and then open a network port 
+to allow customers to browse the simple website.
+
+Ubuntu is a common web server platform, and it's a great way to learn about SSH 
+public-key authentication.
+
+3. core services are offered in every region, but new or niche services should check 
+product availability by region at https://azure.microsoft.com/global-infrastructure/services
+
+4. to connect to backend database or application servers, need:
+either VPN connection,
+or dedicated connection to Azure from on-prem networking equipment, in Azure this dedicated 
+connection is called ExpressRoute.
+
+5. a basic web server requires a specific type of virtual IP address: a public IP address.
+behind it control the flow of traffic to your VM with NSGs (network security groups).
+by default NSG lock down traffice and allow only specific traffic defined by admin.
+Common traffic to define is HTTP or HTTPS on TCP ports 80 and 443.
+RDP or SSH can also be defined.
+
+6. use SSH key pairs to authenticate to Linux VM
+vs
+use password to authenticate to Windows Server
+
+7. "You should always focus on security as a central concept, especially in the cloud."
+
+
+
+
+
+
+

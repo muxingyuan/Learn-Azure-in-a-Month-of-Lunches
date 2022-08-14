@@ -1,0 +1,23 @@
+page 26 (51 of 370) before 2.4.2 
+
+1. The ssh-keygen command defaults to a 2,048-bit-length key and uses the RSA version 2 protocal.
+This is a good balance of security and is recommended for most use cases.
+
+2. xingyuan: when studying Google Cloud, SSH is done by open SSH session in terminal directly,
+so indeed I didn't touch or view the SSH public key.
+I like better this book's approach that explain why and how SSH key pair is used, and stating:
+"Usually, you don't need to copy and paste the whole key each time, but it's good to see what's
+happening at first".
+
+3. Ctrl-Insert does copy, Shift-Insert does paste.
+
+4. knowledge of bastion host (jump box)
+
+5. after subscribe, watch get started
+https://azure.microsoft.com/en-ca/get-started/
+
+6. xingyuan: after setup VM, there is an option of send AutoShutDown notification to
+webhook endpoint.  This is a tiny piece for me to get familiar with webhook.
+
+
+
