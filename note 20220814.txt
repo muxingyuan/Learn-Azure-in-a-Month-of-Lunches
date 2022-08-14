@@ -1,0 +1,20 @@
+page 37 (62 of 370) before 2.4.2 
+
+1. xingyuan: page 44 (66 of 370), step 5 code does not work for me.
+I follow Cephas Lin's video https://www.youtube.com/watch?v=0QO2jdinCoQ
+instead.
+that is: without parameter -o tsv
+
+2. xingyuan: also I follow Cephas in using app leve credential.
+
+3. xingyuan: I mistake git remote add by git add remote, but trouble-shooting 
+the errors makes me know better about git remote concept.
+
+4. xingyuan: during this search, I find this good article to introduce 
+basic git commands to newbbies.
+I stop in-taking at Advanced Commands and Best Practices - git rebase 
+https://www.freecodecamp.org/news/git-cheat-sheet-and-best-practices-c6ce5321f52/#:~:text=You%20can%20view%20that%20origin,URL%20of%20the%20remote%20repo.
+
+5. xingyuan: till now CA$0.25 cost
+
+
