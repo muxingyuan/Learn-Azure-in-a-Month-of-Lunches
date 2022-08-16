@@ -1,0 +1,16 @@
+#xingyuan@Azure:~$
+
+ls
+cd azure*
+ls
+cd 03
+ls
+cd dev
+ls
+git init && git add . && git commit -m "Pizza! dev"
+az webapp deployment source config-local-git --name azuremolmxy --resource-group azuremolchapter3
+az webapp deployment user set --user-name usermxy --password xxxx
+git remote -v
+git remote add dev copy-Git-Clone-Uri-from-dep-slot's-deployment-center
+git push dev master
+git push azure master

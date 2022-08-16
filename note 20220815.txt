@@ -1,0 +1,58 @@
+page 47 (72 of 370) before chapter 4
+
+1. xingyuan: start talking about logs already is really good!
+
+2. xingyuan: so over one night, now my costs shows CA$1.58, I 
+think one of the main difference IaaS vs PaaS is of course 
+IaaS is a lot economic ^-^.
+
+3. The default error level may not show anything if everything works
+right, but take care with changing to Debug or Trace, as your logs
+can fill up fast and make it hard to actually see what's happening!
+If you have a problem, gradually increase the log level until you capture 
+enough information to troubleshoot without being overwhelmed by the log data.
+
+4. The key takeaway here is that as you move toward PaaS solutions like
+web apps, you can still obtain crucial diagnostics logs and application data
+ to troubleshoot and monitor the performance of your web application.
+
+5. deployment slot
+xingyuan: don't know why, but app level publishing username and password
+does not work for deployment slot "dev", error says can not authenticate.
+instead, I use user level username and password to successfully deploy.
+
+6. When you swap slots, what was live in the production slot is now in the dev slot, 
+and what was in dev is now live in production.
+Not all settings can swap, such as SSL settings and custom domains, but for
+the most part, deployment slots are a greate way to stage and validate content
+before it goes live to your customers.
+
+Part 1 Azure core services
+1. before you begin
+2. creating vm
+3. Azure web apps
+4. introduction to Azure Storage
+5. Azure Networking basics
+
+Part 2 High Availability and Scale
+6. Azure resource manager
+7. High availability and redundancy
+8. Load-balancing applications
+9. Applications that scale
+10. Global databases with cosmos
+11. Managing network traffic and routing
+12. Monitoring and troubleshooting
+
+Part 3 Secure by default
+13. Backup, recovery, and replication
+14. Data encryption
+15. Securing information with Azure Key Vault
+16. Azure Security Center and updates
+
+Part 4 The Cool Stuff
+17. Machine Learning and artificial intelligence
+18. Azure automation
+19. Azure containers
+20. Azure and the IoT
+21. Serverless computing
+

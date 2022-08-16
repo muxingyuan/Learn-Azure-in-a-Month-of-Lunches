@@ -1,0 +1,16 @@
+#xingyuan@Azure:~$
+
+git clone https://github.com/fouldsy/azure-mol-samples-2nd-ed.git
+#don't want my azure cloud shell to confict with my existing github account, so use my gmail
+git config --global user.email "muxingyuan2015@gmail.com"
+git config --global user.name "xingyuan mu"
+ls
+cd azure*
+cd 03/prod
+git init && git add . && git commit -m "Pizza!"
+az webapp deployment source config-local-git --name azuremolmxy --resource-group azuremolchapter3
+az webapp deployment list-publishing-credentials --name azuremolmxy --reource-group azuremolchapter3
+#a jason formatted information set is output, with publishing name and password and imbedded url
+git remote add azure 'https://$azuremolmxy:gxxx@azuremolmxy.scm.azurewebsites.net'
+git remote -v
+git push azure master
