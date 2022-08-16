@@ -1,4 +1,4 @@
-page 37 (62 of 370) before 2.4.2 
+page 42 (67 of 370) before 3.3 
 
 1. xingyuan: page 44 (66 of 370), step 5 code does not work for me.
 I follow Cephas Lin's video https://www.youtube.com/watch?v=0QO2jdinCoQ
