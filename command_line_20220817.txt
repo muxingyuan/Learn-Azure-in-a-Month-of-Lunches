@@ -8,3 +8,15 @@ ls
 pip install --user azurerm azure-cosmosdb-table azure-storage-guegue==2.1.0
 python storage_table_demo.py
 python storage_queue_demo.py
+
+
+#local machine
+
+git pull
+git add .
+git commit -m "Chapter 4, introduction of Azure Storage."
+git remote -v
+git push
+#regenerate token by clicking link in alerting email, and follow prompts
+git push -u -f
+#answer token and sign in
