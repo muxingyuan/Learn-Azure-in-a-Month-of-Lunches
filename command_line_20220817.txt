@@ -1,0 +1,10 @@
+#xingyuan@Azure:~$
+
+ls
+cd azure*
+ls
+cd 04
+ls
+pip install --user azurerm azure-cosmosdb-table azure-storage-guegue==2.1.0
+python storage_table_demo.py
+python storage_queue_demo.py
