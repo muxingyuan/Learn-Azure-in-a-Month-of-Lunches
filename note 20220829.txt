@@ -1,0 +1,11 @@
+page 69 (94 of 370) before 5.3.2 Creating VMs
+
+1. The flexibility of NSGs means that you can associate multiple subnets, 
+accross various virtual networks, within a single NSG.
+The mapping is one-to-many, which allows you to define core network security
+rules that apply to a wide range of resources and applications.
+
+2. The priority of an NSG rule is important.  If an Allow or Deny rule
+is applied, no additional rules are applied.
+
+3. Rules are applied in ascending numerical priority order.

@@ -1,0 +1,9 @@
+#xingyuan@Azure:~$
+
+
+az network nsg create --resource-group azuremolchapter5 --name remotensg
+
+az network nsg rule create --resource-group azuremolchapter5 \
+ --nsg-name remotensg --name allowssh --protocol tcp --priority 100 \ --destination-port-range 22 --access allow
+
+az network vnet subnet create --resource-group azuremolchapter5 --vnet-name vnetmol --name remotesubnet --address-prefix 10.0.2.0/24 --network-security-group remotensg
