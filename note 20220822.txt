@@ -1,0 +1,14 @@
+page 65 (90 of 370) before Here is what happens to each network packet:
+
+1. Network resources exist separately from VM resources and can persist 
+beyond the lifecycle of a given VM.  This concept allows you to create
+fixed network resources, and create, delete and create again a VM that
+maintains the same network reources, such as IP addresses and DNS names.
+Think of a lab VM or a development-and-test environment.  You can reproduce
+the exact same environment quickly because only the VM changes.
+
+2. Why .4? What about the first three address in the address space? 
+Azure reserves the first three IP addresses in each range for its own
+management and routing.  The first usable address you can use in each 
+range is 4.
+
