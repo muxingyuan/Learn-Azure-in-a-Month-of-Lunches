@@ -1,0 +1,25 @@
+page 72 (97 of 370) before Try to now
+
+1. With all the network components in place, you're ready to create two VMs.
+One VM is created in the subnet that allows HTTP traffice so that you install
+a web server.  The other VM is created in the subnet that allows SSH so that 
+you have a jump box to further secure your application environment and begin to 
+replicate a production depoyment.
+
+2. SSH public-key pair: The private key is something that stays on your computer.
+Only the public key is copied to the remote VMs.  Although the public key was added 
+to both VMs you created, you can't just SSH to your jump box and then SSH to the web VM.
+Why? That jump box doesn't have a copy of your private key.  When you try to make 
+the SSH connection from the jump box, it has no private key to pair up with the 
+public key on the web VM for you to authenticate.
+
+3. The private key is something to safeguard, you shouldn't take the easy way out
+by copying the private key to the jump box.  Any other users who access the jump box
+could potentially get a copy of your private key and then impersonate you anywhere 
+they key is used.
+
+4. Here's where the SSH agent (for Linux only) comes into play.  If you run the SSH
+agent in your Cloud Shell session, you can add your SSH keys to it.  To create your 
+SSH connection to the jump box, you specify the use of this agent to tunnel your session.
+This technique allows you to effectively pass through your private key for use from
+the jump box to the web VM without ever copying the private key. 
