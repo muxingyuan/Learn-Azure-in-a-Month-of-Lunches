@@ -1,0 +1,7 @@
+#xingyuan@Azure:~$
+
+eval $(ssh-agent)
+ssh-add
+ssh -A azuremol@xx.xx.xx.xxx
+
+#xingyuan, error: connection time out.  I am not quite following this step, will come back re-visit chapter5 later.
