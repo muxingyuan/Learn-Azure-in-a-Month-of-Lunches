@@ -1,10 +1,39 @@
-page 81 (106 of 370) before 6.2
+page 124 (149 of 370) before Chapter 9
 Chapter 6
 
 20220902 page 93 (118 of 370) before A public IP address...
 
 Chapter 7
 Xingyuan: now thinking might finish this book in 2 or 3 months
-
-Chapter 8
 Xingyuan: as a data person, just run through chapter 7 and 8, not getting hands dirty.
+
+20220904
+Chapter 8
+
+1. Load balancers in Azure can work at two levels: layer 4, where just the network traffic 
+is examined and distributed (the transport layer); and layer 7, where there's an awareness
+of the application data within the network traffic to help determine the distribution of data.
+
+2. A load balance consists of a few main components:
+Frontend IP pool;
+Health probes;
+Load-balancer rules;
+Network Address Translation (NAT) rules;
+Backend IP pool.
+
+3. Azure Application Gateway is a load balancer that works at the application layer
+(layer 7).  Application Gateway gains insight into the application that runs on the VM 
+and can manage the traffice flows in more advanced ways.  One major benefit of 
+Application Gateway is the ability to handle encrypted, HTTPS web traffice.
+When you load-balance websites with SSL certificates, you can offload the process
+the verifies and decrypts the traffice from the web servers.  On websites with a lot of 
+SSL traffic, the process to verify and decrypt the traffic can consume a large portion
+of compute time on the VMs or web apps.  Application Gateway can verify and decrypt
+the traffic, pass the pure web request to the web servers, and then reencrypt the traffic
+received from the web servers and return it to the customer.
+
+4. default value of 2 parameters of health prove:
+Interval: 15 seconds;
+Threshold: 2 consecutive failures.
+
+
