@@ -1,0 +1,30 @@
+page 141 (166 of 370) before Chapter 10
+Chapter 9
+
+1. With cloud computing and virtualization, the challenges of scaling horizontally
+are minimized to the point that you can often scale horizontally more quickly than
+vertically and without downtime.
+
+2. VMs have a cool cousin in Azure that can help you out here: virtual machine scale sets.
+
+3. az vmss create command created and configured a load balancer for you!
+
+4. you can view your current quota for a given region as follows:
+az vm list-usage --location westeurope
+To request an increase in your quotas for a region, follow the steps outlined at 
+http://mng.bz/Xq2f
+
+5. This cool-down period gives the new VM instances time to deploy and begin to receive
+traffic from the load balancer, which should decrease the overall application 
+load in the scale set.  Without this cool-down period, the rules may trigger another
+VM instance to be added before the load has started to be distributed accross 
+the previously created VM instance.
+
+6. As with most things, the choice between IaaS and PaaS is a balance of flexibility
+and ease of management.  
+
+
+
+
+
+
