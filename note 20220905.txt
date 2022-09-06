@@ -1,30 +1,15 @@
-page 141 (166 of 370) before Chapter 10
-Chapter 9
+page 150 (175 of 370) before There's a balance between a more ...
+Chapter 10
 
-1. With cloud computing and virtualization, the challenges of scaling horizontally
-are minimized to the point that you can often scale horizontally more quickly than
-vertically and without downtime.
+1. The unstructured data in NoSQL databases isn't stored in tables of rows and columns;
+rather, it's stored in dynamic arrays that allow you to add new properties for an item
+as needed.
 
-2. VMs have a cool cousin in Azure that can help you out here: virtual machine scale sets.
+2. Xingyuan, happy to read more from this book's angle about NoSQL DB.
 
-3. az vmss create command created and configured a load balancer for you!
-
-4. you can view your current quota for a given region as follows:
-az vm list-usage --location westeurope
-To request an increase in your quotas for a region, follow the steps outlined at 
-http://mng.bz/Xq2f
-
-5. This cool-down period gives the new VM instances time to deploy and begin to receive
-traffic from the load balancer, which should decrease the overall application 
-load in the scale set.  Without this cool-down period, the rules may trigger another
-VM instance to be added before the load has started to be distributed accross 
-the previously created VM instance.
-
-6. As with most things, the choice between IaaS and PaaS is a balance of flexibility
-and ease of management.  
-
-
-
-
-
+3. This chapter uses an SQL model for Cosmos DB, but the data is stored in a NoSQL JSON
+format.  These may be new concepts, but stick with me.  You can use other models, 
+including Mongo, Cassandra, Gremlin, and Table.  The functionality is the same for all
+of them: pick your model, choose your regions, and add your data.  That's the power of 
+Cosmos DB.
 
