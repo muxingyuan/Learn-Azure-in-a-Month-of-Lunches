@@ -13,3 +13,17 @@ including Mongo, Cassandra, Gremlin, and Table.  The functionality is the same f
 of them: pick your model, choose your regions, and add your data.  That's the power of 
 Cosmos DB.
 
+4. When your application makes a connection to a Cosmos DB database, you can specify
+a connection policy.  If database aren't normally your thing, think of a basic Open
+Database Connectivity (ODBC) connection you may create on a Windows machine.  The connection
+string typically defines a hostname, a database name, a port, and credentials.  
+Cosmos DB is no different.  You can connect to Cosmos DB from multiple languages, 
+including .NET, Python, Node.js, and Java.  The languages may differ, but all
+the SDKs have a similar setting: endpoint discovery.  
+
+5. xingyuan: the key step to config webapp to connect to Cosmos DB is:
+Edit the configuration file in the app code repo,
+with the database URI and access key that you copied from your Cosmos DB key menu,
+to do this, the code is:
+nano config.js
+

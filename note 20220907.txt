@@ -1,0 +1,19 @@
+page 175 (200 of 370) before Chapter 12
+Chapter 11
+
+1. If you create an Azure DNS zone, the name servers are listed
+in the portal, you can also access these name server addresses
+with the Azure CLI or Azure PowerShell.
+
+2. If you own a domain, you can update the NS records with your
+current provider to point any queries for your domain to the 
+Azure name servers.  It can take 24 to 48 hours for the delegation
+of your domain to propagate throughout the global DNS hierarchy.
+
+3. As you can see, the role of Traffic Manager is to determine 
+a given application endpoint to direct customers to.  Some health
+checks monitor the status of endpoints, similar to the load-balancer
+health probes you learned about in chapter 8.
+
+
+
