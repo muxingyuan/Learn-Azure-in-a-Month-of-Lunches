@@ -1,0 +1,20 @@
+page 175 (200 of 370) before Chapter 12
+Chapter 12
+
+1. When you work with VMs in the cloud, it's often hard to 
+troubleshoot a problem when you can't physically see the computer
+screen, the way you can get web app diagnostics.
+
+2. One of the most common issues with VMs is lack of connectivity.
+If you can't SSH or RDP to a VM, how can you troubleshoot what's
+wrong?  One of the first things you may want to check is whether
+the VM is running correctly.  To help, Azure provides VM boot
+diagnostics that include boot logs and a screenshot of the console.
+
+3. You do need to create a storage account for the boot logs and 
+console screenshots, but the cost to store this data is likely 
+less than $0.01 per month unless you have a busy VM that generate a 
+lot of data.
+
+4. xingyuan: glance and skip rest in this chapter.
+
