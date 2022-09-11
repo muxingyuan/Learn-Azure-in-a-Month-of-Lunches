@@ -1,0 +1,18 @@
+page 206 (231 of 370) before Chapter 14
+Chapter 13
+
+1. One of the cool things about Azure Backup is that it's 
+both a service and a gib bucket of storage for the actual backups.
+
+2. There's no charge for the network traffic flow to back up or 
+restore data.  You pay only for each protected instance and then
+for however much storage you consume in Azure.  
+
+3.  Azure Backup uses an incremental backup model.
+
+4.  Xingyuan: being familar with sql server Always-On, Mirroring, 
+Replication, Backup schedules etc helps fast running most of this chapter.
+
+
+
+
