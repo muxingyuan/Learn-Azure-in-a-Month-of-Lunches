@@ -1,0 +1,26 @@
+page 206 (231 of 370) before Chapter 14
+Chapter 14
+
+1. One advantage of encrypting the entire VM is that you manage
+the encryption keys.  These encryption keys are securely stored in 
+Azure Key Vault, and you can choose between using software- and 
+hardware-generated keys.
+
+You control these keys, so you can define access to them and use
+role-based access controls and auditing to track usage.
+
+You can also rotate the encryption keys on a defined schedule,
+much like changing your password every 60 or 90 days.
+
+2. Microsoft manage the underlying Key Vault service but has no
+access to the contents of the vaults.  This security boundary
+means when you encrypt your data in Azure, you are the only 
+one who can decrypt and view it.
+
+
+
+
+
+
+
+
