@@ -1,0 +1,19 @@
+page 234 (259 of 370) before Chapter 15
+Chapter 15
+
+1. Secure data such as keys, secrets, and certificates is best 
+stored in a digital vault like a key vault, which can centrally 
+manage, issue, and audit the use of your critical credentials and 
+data.  As your applications and services need access to different
+resources, they can automatically request, retrieve, and use
+these keys, secrets, and credentials.
+
+2. To maximize the security and integrity of your data, hardware-
+protected vaults are the preferred approach for production workloads.
+
+3. A managed identity is like a computer account.
+
+
+
+
+

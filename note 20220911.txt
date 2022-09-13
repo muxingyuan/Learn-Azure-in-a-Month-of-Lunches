@@ -1,4 +1,4 @@
-page 206 (231 of 370) before Chapter 14
+page 216 (241 of 370) before Chapter 15
 Chapter 14
 
 1. One advantage of encrypting the entire VM is that you manage
