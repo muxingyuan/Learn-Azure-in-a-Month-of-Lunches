@@ -1,4 +1,4 @@
-page 234 (259 of 370) before Chapter 15
+page 269 (294 of 370) before Chapter 18
 Chapter 15
 
 1. Secure data such as keys, secrets, and certificates is best 
@@ -12,6 +12,62 @@ these keys, secrets, and credentials.
 protected vaults are the preferred approach for production workloads.
 
 3. A managed identity is like a computer account.
+
+Chapter 16
+
+Chapter 17
+
+1. AI allows computers to complete tasks with some amount of flexibity
+and awareness, and to adjust their decisions based on external factors
+or without the need for human interaction.
+
+Common AI on personal computers and smartphones includes Siri, Cortana
+and Google Assistant.
+
+The application is programmed for several common phrases and is then
+able to make an educated guess of what the user is asking for.
+
+2. ML (with big data)
+Computer systems can process really large amounts of data, and allow you
+to find specific patterns and correlations.  These learnings form data models
+that other applications or AI can use to make decisions.
+
+3. when Applications use the data models to process their own datasets,
+these datasets are typically much smaller than the raw data provided to 
+the ML algorithms. If the data model is valid, even with a small data
+input from the application, the correct outcome or correlation can be
+determined.
+
+4. One other cool resource that helps you perform serious ML and number
+crunching in Azure is data science virtual machines (DSVMs).  These VMs
+are available for both Linux and Windows.  They come with many common
+applications preinstalled, including Jupyter Notebooks, Anaconda Python,
+and R Server or SQL Server.
+
+5. There's no need to install all the tools and dependencies on your local
+computer; you can create a DSVM with as much CPU and memory resources as you 
+need to process your data quickly and then delete the VM when your processing
+job is complete and you have the data models you need.
+
+6. Azure Cognitive Services are in below general areas:
+Vision
+Speech
+Language
+Decision
+Search
+
+
+
+
+
+
+
+  
+
+
+
+
+
 
 
 
